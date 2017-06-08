@@ -6,9 +6,9 @@
     android:id="@+id/sliding_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
     android:background="@color/panel_background_color"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:ignore="Overdraw"
     >
   <LinearLayout
@@ -19,17 +19,18 @@
       >
     <ImageView
         android:id="@+id/sliding_menu_close"
+        style="?attr/actionModeCloseButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        style="?attr/actionModeCloseButtonStyle"
-        android:focusable="true"
         android:clickable="true"
+        android:contentDescription="@string/cancel"
+        android:focusable="true"
         android:scaleType="fitCenter"
         android:src="@drawable/ic_action_expand"
-        android:contentDescription="@string/cancel"
         />
-    <com.quran.labs.androidquran.widgets.IconPageIndicator
+
+    <com.techhades.quranapp.widgets.IconPageIndicator
         android:id="@+id/sliding_pager_indicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,7 +38,8 @@
         app:indicatorHeight="@dimen/icon_page_indicator_height"
         />
   </LinearLayout>
-  <com.quran.labs.androidquran.widgets.QuranViewPager
+
+  <com.techhades.quranapp.widgets.QuranViewPager
       android:id="@+id/sliding_layout_pager"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"

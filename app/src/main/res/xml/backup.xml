@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <full-backup-content>
-    <exclude domain="sharedpref" path="com.quran.labs.androidquran.per_installation.xml"/>
+  <exclude
+      domain="sharedpref"
+      path="com.techhades.quranapp.per_installation.xml" />
 </full-backup-content>

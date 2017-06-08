@@ -13,6 +13,7 @@
         for the Quran images you have on your device. Would you like to download this
         patch now?
     </string>
+  <string name="bannerads">ca-app-pub-2740693036645282/6771665456</string>
   <string name="downloadPrompt_ok">Yes</string>
   <string name="downloadPrompt_no">No</string>
   <string name="downloading_title">Downloading&#8230;</string>

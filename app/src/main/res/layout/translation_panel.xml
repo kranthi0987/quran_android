@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:orientation="vertical"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
+    android:orientation="vertical"
     >
 
   <LinearLayout
@@ -11,25 +11,27 @@
       android:layout_height="match_parent"
       android:orientation="vertical"
       >
-    <com.quran.labs.androidquran.widgets.QuranSpinner
+
+    <com.techhades.quranapp.widgets.QuranSpinner
         android:id="@+id/translator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/translation_top_bottom_margin"
         android:layout_marginLeft="@dimen/translation_left_right_margin"
         android:layout_marginRight="@dimen/translation_left_right_margin"
+        android:layout_marginTop="@dimen/translation_top_bottom_margin"
+        android:textColor="@color/accent_color"
         android:textSize="14sp"
         android:textStyle="bold"
-        android:textColor="@color/accent_color"
         />
-    <com.quran.labs.androidquran.widgets.InlineTranslationView
+
+    <com.techhades.quranapp.widgets.InlineTranslationView
         android:id="@+id/translation_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />
   </LinearLayout>
 
-  <com.quran.labs.androidquran.widgets.LeftToRightLinearLayout
+  <com.techhades.quranapp.widgets.LeftToRightLinearLayout
       android:id="@+id/controls"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
@@ -39,8 +41,8 @@
         android:id="@+id/next_ayah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_translation_left"
         android:contentDescription="@string/next"
+        android:src="@drawable/ic_translation_left"
         />
     <Space
         android:layout_width="0dp"
@@ -51,17 +53,17 @@
         android:id="@+id/previous_ayah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_translation_right"
         android:contentDescription="@string/previous"
+        android:src="@drawable/ic_translation_right"
         />
-  </com.quran.labs.androidquran.widgets.LeftToRightLinearLayout>
+  </com.techhades.quranapp.widgets.LeftToRightLinearLayout>
 
   <LinearLayout
       android:id="@+id/empty_state"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:padding="8dp"
       android:orientation="vertical"
+      android:padding="8dp"
       android:visibility="gone"
       >
     <TextView

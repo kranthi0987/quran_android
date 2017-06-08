@@ -1,145 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <com.quran.labs.androidquran.ui.preference.QuranHeaderPreference
-      android:title="@string/app_name"
-      android:summary="@string/about_description"/>
+  <com.techhades.quranapp.ui.preference.QuranHeaderPreference
+      android:summary="@string/about_description"
+      android:title="@string/app_name" />
 
   <PreferenceCategory
       android:key="aboutDataSources"
       android:title="@string/about_data_sources">
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_images"
+    <com.techhades.quranapp.ui.preference.QuranPreference
         android:key="madaniImages"
-        android:summary="@string/about_madani_images">
+        android:summary="@string/about_madani_images"
+        android:title="@string/about_images">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_madani_images_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_images"
+    <com.techhades.quranapp.ui.preference.QuranPreference
         android:key="naskhImages"
-        android:summary="@string/about_naskh_images">
+        android:summary="@string/about_naskh_images"
+        android:title="@string/about_images">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_naskh_images_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_images"
+    <com.techhades.quranapp.ui.preference.QuranPreference
         android:key="qaloonImages"
-        android:summary="@string/about_qaloon_images"/>
+        android:summary="@string/about_qaloon_images"
+        android:title="@string/about_images" />
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_quranicaudio"
-        android:summary="@string/about_quranicaudio_summary">
+    <com.techhades.quranapp.ui.preference.QuranPreference
+        android:summary="@string/about_quranicaudio_summary"
+        android:title="@string/about_quranicaudio">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_quranicaudio_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_quran_ksu"
-        android:summary="@string/about_quran_ksu_summary">
+    <com.techhades.quranapp.ui.preference.QuranPreference
+        android:summary="@string/about_quran_ksu_summary"
+        android:title="@string/about_quran_ksu">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_quran_ksu_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_tanzil"
-        android:summary="@string/about_tanzil_summary">
+    <com.techhades.quranapp.ui.preference.QuranPreference
+        android:summary="@string/about_tanzil_summary"
+        android:title="@string/about_tanzil">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_tanzil_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_noorhidayat"
-        android:summary="@string/about_noorhidayat_summary">
+    <com.techhades.quranapp.ui.preference.QuranPreference
+        android:summary="@string/about_noorhidayat_summary"
+        android:title="@string/about_noorhidayat">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_noorhidayat_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
   </PreferenceCategory>
 
   <PreferenceCategory android:title="@string/about_open_source">
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_dagger2"
-        android:summary="@string/about_dagger2_url">
+    <com.techhades.quranapp.ui.preference.QuranPreference
+        android:summary="@string/about_dagger2_url"
+        android:title="@string/about_dagger2">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_dagger2_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_okhttp"
-        android:summary="@string/about_okhttp_url">
+    <com.techhades.quranapp.ui.preference.QuranPreference
+        android:summary="@string/about_okhttp_url"
+        android:title="@string/about_okhttp">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_okhttp_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_rxjava"
-        android:summary="@string/about_rxjava_url">
+    <com.techhades.quranapp.ui.preference.QuranPreference
+        android:summary="@string/about_rxjava_url"
+        android:title="@string/about_rxjava">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_rxjava_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_rxandroid"
-        android:summary="@string/about_rxandroid_url">
+    <com.techhades.quranapp.ui.preference.QuranPreference
+        android:summary="@string/about_rxandroid_url"
+        android:title="@string/about_rxandroid">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_rxandroid_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_moshi"
-        android:summary="@string/about_moshi_url">
+    <com.techhades.quranapp.ui.preference.QuranPreference
+        android:summary="@string/about_moshi_url"
+        android:title="@string/about_moshi">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_moshi_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_sliding_panel"
-        android:summary="@string/about_sliding_panel_url">
+    <com.techhades.quranapp.ui.preference.QuranPreference
+        android:summary="@string/about_sliding_panel_url"
+        android:title="@string/about_sliding_panel">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_sliding_panel_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_retrolambda"
-        android:summary="@string/about_retrolambda_desc">
+    <com.techhades.quranapp.ui.preference.QuranPreference
+        android:summary="@string/about_retrolambda_desc"
+        android:title="@string/about_retrolambda">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_retrolambda_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
 
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_butterknife"
-        android:summary="@string/about_butterknife_desc">
+    <com.techhades.quranapp.ui.preference.QuranPreference
+        android:summary="@string/about_butterknife_desc"
+        android:title="@string/about_butterknife">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_butterknife_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
   </PreferenceCategory>
 
   <PreferenceCategory
       android:title="@string/about_others">
-    <com.quran.labs.androidquran.ui.preference.QuranPreference
-        android:title="@string/about_contributors"
-        android:summary="@string/about_contributors_summary">
+    <com.techhades.quranapp.ui.preference.QuranPreference
+        android:summary="@string/about_contributors_summary"
+        android:title="@string/about_contributors">
       <intent
           android:action="android.intent.action.VIEW"
           android:data="@string/about_contributors_url"/>
-    </com.quran.labs.androidquran.ui.preference.QuranPreference>
+    </com.techhades.quranapp.ui.preference.QuranPreference>
   </PreferenceCategory>
 </PreferenceScreen>

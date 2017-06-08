@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "865092966367",
+    "firebase_url": "https://techhades-bab68.firebaseio.com",
+    "project_id": "techhades-bab68",
+    "storage_bucket": "techhades-bab68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865092966367:android:9682c3f1e3228923",
+        "android_client_info": {
+          "package_name": "com.sanjay.techhades"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865092966367-uhp1tro8rbatudhctf3821hjse0j74ve.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanjay.techhades",
+            "certificate_hash": "cfee675146d1d04e41a0c6b3b78614168201fd00"
+          }
+        },
+        {
+          "client_id": "865092966367-sq5s5e92tln1ct5fbm4fh6m5lo6ufoel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sanjay.techhades",
+            "certificate_hash": "778d7019a0fe553b56ba4b0cef1ca26c003fa86f"
+          }
+        },
+        {
+          "client_id": "865092966367-ptprqarekdbarfhi8cft2bdd0cd5np40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpP7iDahJW6g74B2sMcJCuYV-zNCAxA2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865092966367-ptprqarekdbarfhi8cft2bdd0cd5np40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865092966367:android:c02ecd468df3e07b",
+        "android_client_info": {
+          "package_name": "com.sanjay.qrcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865092966367-ptprqarekdbarfhi8cft2bdd0cd5np40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpP7iDahJW6g74B2sMcJCuYV-zNCAxA2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865092966367:android:14f261dd0050f780",
+        "android_client_info": {
+          "package_name": "com.techhades.luna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865092966367-ptprqarekdbarfhi8cft2bdd0cd5np40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpP7iDahJW6g74B2sMcJCuYV-zNCAxA2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865092966367:android:a33ae8ff805dc141",
+        "android_client_info": {
+          "package_name": "com.techhades.lock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865092966367-ptprqarekdbarfhi8cft2bdd0cd5np40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpP7iDahJW6g74B2sMcJCuYV-zNCAxA2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865092966367:android:72c9ef6d08c7a7c0",
+        "android_client_info": {
+          "package_name": "com.techhades.quranapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865092966367-ptprqarekdbarfhi8cft2bdd0cd5np40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpP7iDahJW6g74B2sMcJCuYV-zNCAxA2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

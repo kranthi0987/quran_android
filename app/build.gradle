@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'io.fabric'
+//apply plugin: 'io.fabric'
 apply plugin: 'me.tatarka.retrolambda'
 
 android {
@@ -9,7 +9,7 @@ android {
   lintOptions {
     checkReleaseBuilds true
     lintConfig file("lint.xml")
-  }
+    }
 
   defaultConfig {
     minSdkVersion 14
@@ -17,46 +17,46 @@ android {
     versionCode 2751
     versionName "2.7.5-p1"
     testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-  }
+    }
 
   signingConfigs {
     release {
-      storeFile file(STORE_FILE)
-      storePassword STORE_PASSWORD
-      keyAlias KEY_ALIAS
-      keyPassword KEY_PASSWORD
+      keyAlias 'sanjay'
+      keyPassword 'sanjay_7'
+      storeFile file('C:/sanjay imp/sanjay.jks')
+      storePassword 'sanjay_7'
     }
-  }
+    }
 
   productFlavors {
     madani {
-      applicationId "com.quran.labs.androidquran"
+      applicationId "com.techhades.quranapp"
     }
 
     qaloon {
-      applicationId "com.quran.labs.androidquran.qaloon"
+      applicationId "com.techhades.quranapp.qaloon"
       versionCode 1081
       versionName "1.0.8-p1"
     }
 
     naskh {
-      applicationId "com.quran.labs.androidquran.naskh"
+      applicationId "com.techhades.quranapp.naskh"
       versionCode 1081
       versionName "1.0.8-p1"
     }
 
     shemerly {
-      applicationId "com.quran.labs.androidquran.shemerly"
+      applicationId "com.techhades.quranapp.shemerly"
       versionCode 1081
       versionName "1.0.8-p1"
     }
 
     warsh {
-      applicationId "com.quran.labs.androidquran.warsh"
+      applicationId "com.techhades.quranapp.warsh"
       versionCode 1081
       versionName "1.0.8-p1"
     }
-  }
+    }
 
   buildTypes {
     beta {
@@ -84,7 +84,7 @@ android {
         ext.enableCrashlytics = false
       }
     }
-  }
+    }
 
   applicationVariants.all { variant ->
     resValue "string", "authority", applicationId + '.data.QuranDataProvider'
@@ -92,12 +92,12 @@ android {
     if (applicationId.endsWith("debug")) {
       mergedFlavor.manifestPlaceholders = [app_debug_label: "Quran " + flavorName.capitalize()]
     }
-  }
+    }
 
   compileOptions {
     sourceCompatibility JavaVersion.VERSION_1_8
     targetCompatibility JavaVersion.VERSION_1_8
-  }
+    }
 
   testOptions.unitTests.all {
     testLogging {
@@ -106,7 +106,7 @@ android {
       showStandardStreams true
       exceptionFormat "full"
     }
-  }
+    }
 }
 
 ext {
@@ -120,26 +120,32 @@ dependencies {
   compile "com.android.support:appcompat-v7:${supportLibVersion}"
   compile "com.android.support:recyclerview-v7:${supportLibVersion}"
   compile "com.android.support:design:${supportLibVersion}"
-  compile 'io.reactivex.rxjava2:rxjava:2.1.0'
-  compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
-  annotationProcessor 'com.google.dagger:dagger-compiler:2.9'
-  compile 'com.google.dagger:dagger:2.9'
   compile "com.squareup.okhttp3:okhttp:${okhttpVersion}"
-  compile 'com.squareup.moshi:moshi:1.4.0'
-  compile 'com.jakewharton.timber:timber:4.5.1'
-  compile 'com.jakewharton:butterknife:8.5.1'
-  annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
-  debugCompile 'com.facebook.stetho:stetho:1.5.0'
-  debugCompile 'com.facebook.stetho:stetho-okhttp3:1.5.0'
-  debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
-  testCompile 'junit:junit:4.12'
-  testCompile 'com.google.truth:truth:0.30'
-  testCompile "org.mockito:mockito-core:1.10.19"
   testCompile "com.squareup.okhttp3:mockwebserver:${okhttpVersion}"
   androidTestCompile "com.android.support.test.espresso:espresso-core:${espressoVersion}"
   androidTestCompile "com.android.support.test.espresso:espresso-intents:${espressoVersion}"
   androidTestCompile "com.android.support:support-annotations:${supportLibVersion}"
-  compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
-    transitive = true
-  }
+  compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar')
+      {
+        transitive = true
+      }
+  compile 'io.reactivex.rxjava2:rxjava:2.1.0'
+  compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+  compile 'com.google.dagger:dagger:2.9'
+  compile 'com.squareup.moshi:moshi:1.4.0'
+  compile 'com.jakewharton.timber:timber:4.5.1'
+  compile 'com.jakewharton:butterknife:8.5.1'
+  compile 'com.google.firebase:firebase-ads:10.0.1'
+  testCompile 'junit:junit:4.12'
+  testCompile 'com.google.truth:truth:0.30'
+  testCompile 'org.mockito:mockito-core:1.10.19'
+  annotationProcessor 'com.google.dagger:dagger-compiler:2.9'
+  annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+  debugCompile 'com.facebook.stetho:stetho:1.5.0'
+  debugCompile 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+  debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
 }
+
+//apply plugin: 'com.google.gms.google-services'
+
+apply plugin: 'com.google.gms.google-services'

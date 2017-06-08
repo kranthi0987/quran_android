@@ -3,9 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingTop="8dp"
     android:paddingLeft="24dp"
-    android:paddingRight="24dp">
+    android:paddingRight="24dp"
+    android:paddingTop="8dp">
 
   <TextView
       android:layout_width="match_parent"
@@ -23,8 +23,8 @@
   <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:paddingTop="8dp"
       android:paddingBottom="8dp"
+      android:paddingTop="8dp"
       android:text="@string/menu_jump"/>
 
   <LinearLayout
@@ -32,13 +32,13 @@
       android:layout_height="wrap_content"
       android:orientation="horizontal">
 
-    <com.quran.labs.androidquran.widgets.ForceCompleteTextView
+    <com.techhades.quranapp.widgets.ForceCompleteTextView
         android:id="@+id/sura_spinner"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:inputType="text|textAutoComplete"
         android:imeOptions="flagNoExtractUi"
+        android:inputType="text|textAutoComplete"
         android:selectAllOnFocus="true"/>
 
     <EditText
@@ -46,9 +46,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:minWidth="64dp"
-        android:inputType="number"
         android:imeOptions="flagNoExtractUi"
+        android:inputType="number"
+        android:minWidth="64dp"
         android:selectAllOnFocus="true"/>
   </LinearLayout>
 </LinearLayout>

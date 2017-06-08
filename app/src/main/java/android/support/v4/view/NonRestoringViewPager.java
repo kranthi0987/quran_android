@@ -5,8 +5,8 @@ import android.os.Parcelable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import com.quran.labs.androidquran.util.QuranScreenInfo;
-import com.quran.labs.androidquran.util.QuranUtils;
+import com.techhades.quranapp.util.QuranScreenInfo;
+import com.techhades.quranapp.util.QuranUtils;
 
 /**
  * NonRestoringViewPager is a hack to sometimes prevent ViewPager from restoring its
@@ -28,8 +28,8 @@ import com.quran.labs.androidquran.util.QuranUtils;
  * for now, since we still want to get save and restore on the PagerAdapter.
  */
 public class NonRestoringViewPager extends ViewPager {
-  private boolean isRestoring = false;
   private final boolean useDefaultImplementation;
+  private boolean isRestoring = false;
 
   public NonRestoringViewPager(Context context) {
     super(context);

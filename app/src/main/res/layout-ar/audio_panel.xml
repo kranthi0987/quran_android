@@ -6,9 +6,9 @@
             android:fadeScrollbars="false"
     >
   <LinearLayout
-      android:orientation="vertical"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:orientation="vertical"
       android:paddingLeft="12dp"
       android:paddingRight="12dp"
       >
@@ -22,16 +22,18 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
         android:layout_gravity="end"
+        android:layout_marginBottom="12dp"
         android:orientation="horizontal"
         >
-      <com.quran.labs.androidquran.widgets.QuranSpinner
+
+      <com.techhades.quranapp.widgets.QuranSpinner
           android:id="@+id/start_ayah_spinner"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           />
-      <com.quran.labs.androidquran.widgets.QuranSpinner
+
+      <com.techhades.quranapp.widgets.QuranSpinner
           android:id="@+id/start_sura_spinner"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
@@ -47,16 +49,18 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
         android:layout_gravity="end"
+        android:layout_marginBottom="12dp"
         android:orientation="horizontal"
         >
-      <com.quran.labs.androidquran.widgets.QuranSpinner
+
+      <com.techhades.quranapp.widgets.QuranSpinner
           android:id="@+id/end_ayah_spinner"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           />
-      <com.quran.labs.androidquran.widgets.QuranSpinner
+
+      <com.techhades.quranapp.widgets.QuranSpinner
           android:id="@+id/end_sura_spinner"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
@@ -66,11 +70,12 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
         android:layout_gravity="end"
+        android:layout_marginBottom="12dp"
         android:orientation="horizontal"
         >
-      <com.quran.labs.androidquran.widgets.QuranSpinner
+
+      <com.techhades.quranapp.widgets.QuranSpinner
           android:id="@+id/repeat_range_spinner"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
@@ -87,11 +92,12 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
         android:layout_gravity="end"
+        android:layout_marginBottom="12dp"
         android:orientation="horizontal"
         >
-      <com.quran.labs.androidquran.widgets.QuranSpinner
+
+      <com.techhades.quranapp.widgets.QuranSpinner
           android:id="@+id/repeat_verse_spinner"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
@@ -117,8 +123,8 @@
         android:id="@+id/apply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/play_apply"
         android:layout_gravity="start"
+        android:text="@string/play_apply"
         />
   </LinearLayout>
 </ScrollView>
