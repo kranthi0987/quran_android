@@ -2,7 +2,6 @@
 
 # Quran for Android
 
-[<img align="right" src="https://raw.githubusercontent.com/quran/quran_android/master/app/src/madani/res/drawable-xxxhdpi/icon.png" />](https://play.google.com/store/apps/details?id=com.quran.labs.androidquran)
 
 this is a simple (madani based) quran app for android.
 
@@ -17,7 +16,7 @@ If you'd like to contribute, please take a look at the [PRs Welcome](https://git
 
 Use [`quran_android-code_style.xml`](https://github.com/quran/quran_android/blob/master/quran_android-code_style.xml) for Android Studio / IntelliJ code styles. Import it by copying it to the Android Studio/IntelliJ IDEA codestyles folder. For Android Studio, that folder is located at `~/.AndroidStudio[Version]/config/codestyles` (the root folder name may differ depending on the host machine and Android Studio version, but the rest of the path should be same). After copying the `quran_android-code_style.xml`, go to Code Style preferences screen and choose `quran_android-code_style` from Code Style Schemes.
 
-Though very rarely, we do push beta versions in Play Store for early testing. If you would like to participate in beta program, please join our [Quran for Android](https://plus.google.com/communities/100110719319613677297) community in Google+.
+Though very rarely, we do push beta versions in Play Store for early testing. If you would like to participate in beta program, please join our  community in Google+.
 
 May Allah reward all the awesome [Contributors and Translators](https://github.com/quran/quran_android/blob/master/CONTRIBUTORS.md).
 
@@ -32,14 +31,4 @@ You can build Quran from the command line by running `./gradlew assembleMadaniDe
 
 Choose "Import Project," and choose the `build.gradle` file from the top level directory. Under "Build Variants" (a tab on the left side), choose "madaniDebug."
 
-## Open Source Projects Used
 
-* [Android Support Library](https://developer.android.com/topic/libraries/support-library/features.html)
-* [AndroidSlidingUpPanel](https://github.com/umano/AndroidSlidingUpPanel)
-* [OkHttp](https://github.com/square/okhttp)
-* [RxJava 2](https://github.com/ReactiveX/RxJava)
-* [RxAndroid](https://github.com/ReactiveX/RxAndroid)
-* [moshi](https://github.com/square/moshi)
-* [dagger2](http://google.github.io/dagger/)
-* [retrolambda](https://github.com/orfjackal/retrolambda) and [retrolambda gradle plugin](https://github.com/evant/gradle-retrolambda).
-* [butterknife](http://jakewharton.github.io/butterknife/)
