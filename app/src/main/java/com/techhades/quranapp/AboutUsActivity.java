@@ -7,15 +7,23 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.techhades.quranapp.ui.QuranActionBarActivity;
 import com.techhades.quranapp.ui.fragment.AboutFragment;
 
 public class AboutUsActivity extends QuranActionBarActivity {
+  private AdView mAdView;
 
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
     setContentView(R.layout.about_us);
+    //
+    mAdView = (AdView) findViewById(R.id.adView);
+    AdRequest adRequest = new AdRequest.Builder().build();
+    mAdView.loadAd(adRequest);
+    //
 
     final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
     toolbar.setTitle(R.string.menu_about);

@@ -8,6 +8,7 @@ import android.widget.TextView;
 import com.techhades.quranapp.ui.QuranActionBarActivity;
 
 public class HelpActivity extends QuranActionBarActivity {
+
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
@@ -15,6 +16,7 @@ public class HelpActivity extends QuranActionBarActivity {
     getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     setContentView(R.layout.help);
+
 
     TextView helpText = (TextView) findViewById(R.id.txtHelp);
     helpText.setText(Html.fromHtml(getString(R.string.help)));

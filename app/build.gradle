@@ -9,15 +9,15 @@ android {
   lintOptions {
     checkReleaseBuilds true
     lintConfig file("lint.xml")
-    }
+  }
 
   defaultConfig {
     minSdkVersion 14
     targetSdkVersion 25
-    versionCode 2751
-    versionName "2.7.5-p1"
+    versionCode 1
+    versionName "1.0"
     testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-    }
+  }
 
   signingConfigs {
     release {
@@ -26,7 +26,7 @@ android {
       storeFile file('C:/sanjay imp/sanjay.jks')
       storePassword 'sanjay_7'
     }
-    }
+  }
 
   productFlavors {
     madani {
@@ -35,28 +35,28 @@ android {
 
     qaloon {
       applicationId "com.techhades.quranapp.qaloon"
-      versionCode 1081
-      versionName "1.0.8-p1"
+      versionCode 1
+      versionName "1.0"
     }
 
     naskh {
       applicationId "com.techhades.quranapp.naskh"
-      versionCode 1081
-      versionName "1.0.8-p1"
+      versionCode 1
+      versionName "1.0"
     }
 
     shemerly {
       applicationId "com.techhades.quranapp.shemerly"
-      versionCode 1081
-      versionName "1.0.8-p1"
+      versionCode 1
+      versionName "1.0"
     }
 
     warsh {
       applicationId "com.techhades.quranapp.warsh"
-      versionCode 1081
-      versionName "1.0.8-p1"
+      versionCode 1
+      versionName "1.0"
     }
-    }
+  }
 
   buildTypes {
     beta {
@@ -84,7 +84,7 @@ android {
         ext.enableCrashlytics = false
       }
     }
-    }
+  }
 
   applicationVariants.all { variant ->
     resValue "string", "authority", applicationId + '.data.QuranDataProvider'
@@ -92,12 +92,12 @@ android {
     if (applicationId.endsWith("debug")) {
       mergedFlavor.manifestPlaceholders = [app_debug_label: "Quran " + flavorName.capitalize()]
     }
-    }
+  }
 
   compileOptions {
     sourceCompatibility JavaVersion.VERSION_1_8
     targetCompatibility JavaVersion.VERSION_1_8
-    }
+  }
 
   testOptions.unitTests.all {
     testLogging {
@@ -106,7 +106,7 @@ android {
       showStandardStreams true
       exceptionFormat "full"
     }
-    }
+  }
 }
 
 ext {
