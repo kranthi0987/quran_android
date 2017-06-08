@@ -2,7 +2,7 @@
 
 # Quran for Android
 
-[<img align="right" src="https://raw.githubusercontent.com/quran/quran_android/master/app/src/madani/res/drawable-xxxhdpi/icon.png" />](https://play.google.com/store/apps/details?id=com.techhades.quranapp)
+[<img align="right" src="https://raw.githubusercontent.com/quran/quran_android/master/app/src/madani/res/drawable-xxxhdpi/icon.png" />](https://play.google.com/store/apps/details?id=com.quran.labs.androidquran)
 
 this is a simple (madani based) quran app for android.
 
