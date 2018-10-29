@@ -43,3 +43,8 @@ Choose "Import Project," and choose the `build.gradle` file from the top level d
 * [dagger2](http://google.github.io/dagger/)
 * [retrolambda](https://github.com/orfjackal/retrolambda) and [retrolambda gradle plugin](https://github.com/evant/gradle-retrolambda).
 * [butterknife](http://jakewharton.github.io/butterknife/)
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/kranthi0987/quran_android/badge.svg?style=beer-square)](https://beerpay.io/kranthi0987/quran_android)  [![Beerpay](https://beerpay.io/kranthi0987/quran_android/make-wish.svg?style=flat-square)](https://beerpay.io/kranthi0987/quran_android?focus=wish)
